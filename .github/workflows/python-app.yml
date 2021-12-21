@@ -19,6 +19,7 @@ jobs:
           pip install -r requirements.txt
       - name: Analize static code with pylint
         run: |
+          pip install pylint
           pylint **/*.py
       - name: Test with pytest
         run: |
