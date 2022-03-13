@@ -14,7 +14,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_is_capitalize(self):
         sting = transform.to_capitalize("HELLO")
-        self.assertEqual(sting, "Hello")
+        self.assertEqual(sting, "hello")
 
 
 if __name__ == '__main__':
